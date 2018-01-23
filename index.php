@@ -7,13 +7,13 @@ require_once('assets/lang/es/init.php');
 <html>
 <head>
     <title><?=$lng['title']?></title>
-    <?php require_once('../template/header.php'); ?>
+    <?php require_once('template/head.php'); ?>
 </head>
 <body>
 
-    <?php require_once('../template/nav.php'); ?>
+    <?php require_once('template/nav.php'); ?>
 
-    <?php require_once('../template/footer.php'); ?>
+    <?php require_once('template/footer.php'); ?>
 
 </body>
 </html>
