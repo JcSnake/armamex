@@ -1,12 +1,33 @@
-.am-navbar-height {
-    height:150px;
+/**
+ * General Styles
+ */
+
+body {
+    background-color: #fff;
 }
 
-.home-logo {
+h1 {
+    color: #ffff;
+    margin: 11.5px;
+}
 
+/**
+ * Custome styles
+ */
+
+.home-logo {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.home-bg {
+    background-image: url("../images/NASA_fotoprueba.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    height: 400px;
 }
 
 .separador {
@@ -17,24 +38,13 @@
     width: 50%;
 }
 
-h1 {
-    color: #ffff;
-    margin: 11.5px;
-}
-
-.am-text-footer {
-    font-size: 1.5em;
-    color: rgb(65, 151, 214);
-}
-
 .am-footer {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
-.home-bg {
-    background-image: url("../assets/images/NASA_fotoprueba.jpg");
-    background-color: #444;
-    background-position: 50%;
+.am-text-footer, .am-text-footer > a {
+    font-size: 1.2em;
+    color: rgb(170, 201, 223) !important;
 }
