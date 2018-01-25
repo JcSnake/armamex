@@ -4,7 +4,7 @@ require_once('assets/lang/es/init.php');
 
 ?>
 <!Doctype html>
-<html>
+<html lang="<?=$lng['code']?>" dir="<?=$lng['dir']?>" class="uk-touch">
 <head>
     <title><?=$lng['title']?></title>
     <?php require_once('template/head.php'); ?>

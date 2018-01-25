@@ -4,10 +4,10 @@
     </div>
     <h1 class="uk-text-center">Naviera Armamex</h1>
     <div class="separador"></div>
-    <h1 class="uk-text-center">Calidad<i>&nbsp&nbsp•&nbsp&nbsp</i>Experiencia<i>&nbsp&nbsp•&nbsp&nbsp</i>Seguridad</h1>
+    <h1 class="uk-text-center am-header-for-small">Calidad<i>&nbsp&nbsp•&nbsp&nbsp</i>Experiencia<i>&nbsp&nbsp•&nbsp&nbsp</i>Seguridad</h1>
 </div>
 
-<nav class="uk-navbar uk-width-1-1">
+<nav class="uk-navbar uk-width-1-1 uk-hidden-small">
     <ul class="uk-flex uk-flex-center uk-navbar-nav">
         <li><a href="nosotros.php" class="uk-navbar-nav-subtitle">
                 <div class="uk-flex uk-flex-center am-menu-icon">
@@ -66,4 +66,11 @@
             </a>
         </li>
     </ul>
+</nav>
+
+<nav class="uk-navbar uk-width-1-1 uk-visible-small">
+    <a href="#navOffcanvas" class="uk-navbar-toggle" data-uk-offcanvas="{mode:'reveal'}"></a>
+    <div class="uk-navbar-content uk-navbar-center">
+        <img src="/assets/images/logo-armamex.svg" width="100" height="100" alt="Armamex">
+    </div>
 </nav>

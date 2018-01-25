@@ -19,6 +19,7 @@ h1 {
     position: absolute;
     top: 10px;
     left: 10px;
+    height: 150px;
 }
 
 .home-bg {
@@ -38,37 +39,16 @@ h1 {
     width: 50%;
 }
 
-.am-footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
 .am-text-menu {
-
     font-size: 0.7em !important;
     text-align: center !important;
 }
 
 .am-menu-icon {
-
     margin-top: 5px !important;
-    margin-bottom: 2px;
-}
-
-.am-text-footer, .am-text-footer > a {
-    font-size: 1.2em;
-    color: rgb(170, 201, 223) !important;
-}
-
-.am-bgcolor {
-
-    background-color: #293359 !important;
-    background-size: 100%;
-    background-position-x: 50%;
-    background-position-y: 10%;
-    height: 600px;
-
+    margin-bottom: 4px;
+    width: 45px !important;
+    height: 45px !important;
 }
 
 .am-head-category {
@@ -77,9 +57,48 @@ h1 {
     padding-top: 30px;
 }
 
-.home-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 150px;
+.am-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.am-text-footer, .am-text-footer > a {
+    font-size: 1.2em;
+    color: rgb(170, 201, 223) !important;
+}
+
+.am-bgcolor {
+    background-color: #293359 !important;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    height: 600px;
+
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.4em;
+    }
+
+    .home-bg {
+        background-position-y: 0%;
+        height: 180px;
+    }
+
+    .am-text-footer, .am-text-footer > a {
+        font-size: 0.9em;
+    }
+
+    .am-header-for-small {
+        font-size: 1.2em;
+    }
+
+    .separador {
+        border-top: 1px solid #FFF;
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
 }
