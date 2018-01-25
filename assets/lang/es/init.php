@@ -20,7 +20,8 @@ $lng['copyright'] = 'Copyright 2017';
 $lng['emailContacto'] = 'comercializacion@armamex.com';
 
 $lng['title'] = 'Armamex';
-$lng['flota'] = 'Conozca nuestras embarcaciones'
+$lng['flota'] = 'Conozca nuestras embarcaciones';
+$lng['nosotros'] = '40 Años de experiencia marítima';
 
 
 ?>
