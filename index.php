@@ -11,9 +11,13 @@ require_once('assets/lang/es/init.php');
 </head>
 <body>
 
-    <?php require_once('template/nav.php'); ?>
+    <?php require_once('/template/nav.php'); ?>
 
-    <?php require_once('template/footer.php'); ?>
+    <div class="home-bg">
+
+    </div> 
+
+    <?php require_once('/template/footer.php'); ?>
 
 </body>
 </html>

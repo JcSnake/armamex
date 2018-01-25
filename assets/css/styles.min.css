@@ -1,4 +1,40 @@
-
-.am-navbar-height{
+.am-navbar-height {
     height:150px;
+}
+
+.home-logo {
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.separador {
+    border-top: 1px solid #FFF;
+    position: relative;
+    left: 25%;
+    right: 45%;
+    width: 50%;
+}
+
+h1 {
+    color: #ffff;
+    margin: 11.5px;
+}
+
+.am-text-footer {
+    font-size: 1.5em;
+    color: rgb(65, 151, 214);
+}
+
+.am-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.home-bg {
+    background-image: url("../assets/images/NASA_fotoprueba.jpg");
+    background-color: #444;
+    background-position: 50%;
 }

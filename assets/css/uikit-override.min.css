@@ -1,6 +1,24 @@
 
 .uk-navbar {
     background: #293359;
-    color: #FFF;
     padding: 20px;
+}
+
+.uk-navbar-nav {
+    position: relative;
+    width: 100%;
+    background:rgb(37, 124, 183);
+}
+
+.uk-navbar-nav > li > a {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.uk-block-primary {
+    background: #293359;
+    padding: 10px;
+
 }
