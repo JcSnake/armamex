@@ -16,49 +16,49 @@
                 <div class="am-text-menu">Nosotros</div>
             </a>
         </li>
-        <li><a href="flota.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-flota" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/flota.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Flota</div>
             </a>
         </li>
-        <li><a href="terminal.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-terminal" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/terminal.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Terminal</div>
             </a>
         </li>
-        <li><a href="servicios.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-servicios" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/servicios.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Servicios</div>
             </a>
         </li>
-        <li><a href="cotizacion.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-cotizacion" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/cotizacion.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Cotizacion</div>
             </a>
         </li>
-        <li><a href="experiencia.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-experiencia" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}"> 
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/experiencia.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Experiencia</div>
             </a>
         </li>
-        <li><a href="clientes.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-clientes" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/clientes.svg" width="40" height="40">
                 </div>
                 <div class="am-text-menu">Clientes</div>
             </a>
         </li>
-        <li><a href="contacto.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-contacto" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon am-icon">
                     <img src="assets/images/contacto.svg" width="40" height="40">
                 </div>

@@ -113,6 +113,11 @@ ul {
     list-style-type: none;
 }
 
+li {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
 .am-head-im-ship {
     position: absolute;
     left: -100px;
@@ -123,7 +128,11 @@ ul {
     color: #FFF;
     font-size: 2em;
     position: absolute;
-    top: -40px;
+    top: -30px;
+}
+
+.am-block-parent {
+    padding: 60px 100px;
 }
 
 .am-block {
@@ -131,7 +140,8 @@ ul {
     -moz-box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     position: relative;
-    padding: 40px 15px;
+    padding: 50px 35px;
+    padding-bottom: 5px;
 }
 
 .am-places-buque {
@@ -139,6 +149,8 @@ ul {
     left: 125px;
     padding-top: 10px;
 }
+
+
 
 .am-places-buque > p {
     color: white;
@@ -164,6 +176,11 @@ ul {
 .am-text-exp-mar > p {
     color: white;
     font-size: 1.5em;
+}
+
+.am-list-terminal > li {
+
+    list-style:square;
 }
 
 @media screen and (max-width: 768px) {

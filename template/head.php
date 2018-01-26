@@ -17,6 +17,7 @@
     <!-- Import UIKit 2.27.5 Framework for responsive design and utilities -->
     <link rel="stylesheet" href="/assets/frameworks/uikit-2.27.5/css/uikit.min.css">
     <script src="/assets/frameworks/uikit-2.27.5/js/uikit.min.js"></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/grid.js"></script>
 
     <!-- Import own styles and scripts -->
     <link rel="stylesheet" href="/assets/css/styles.min.css?v=<?=$lng['version']?>">

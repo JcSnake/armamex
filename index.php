@@ -19,6 +19,7 @@ require_once('assets/lang/es/init.php');
     <?php
         include_once('nosotros.php');
         include_once('flota.php');
+        include_once('terminal.php');
     ?>
 
     <?php require_once('template/footer.php'); ?>
