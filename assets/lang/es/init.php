@@ -22,6 +22,7 @@ $lng['emailContacto'] = 'comercializacion@armamex.com';
 $lng['title'] = 'Armamex';
 $lng['flota'] = 'Conozca nuestras embarcaciones';
 $lng['nosotros'] = '40 Años de experiencia marítima';
+$lng['titleCompany'] = 'Naviera Armamex';
 
 
 ?>

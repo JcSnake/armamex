@@ -14,8 +14,12 @@ require_once('assets/lang/es/init.php');
     <?php require_once('template/nav.php'); ?>
 
     <div class="home-bg">
+    </div>
 
-    </div> 
+    <?php
+        include_once('nosotros.php');
+        include_once('flota.php');
+    ?>
 
     <?php require_once('template/footer.php'); ?>
 

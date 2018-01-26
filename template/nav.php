@@ -2,14 +2,14 @@
     <div class="home-logo">
         <img src="../assets/images/logo-armamex.svg" alt="Armamex">
     </div>
-    <h1 class="uk-text-center">Naviera Armamex</h1>
+    <h1 class="uk-text-center"><?=$lng['titleCompany']?></h1>
     <div class="separador"></div>
     <h1 class="uk-text-center am-header-for-small">Calidad<i>&nbsp&nbsp•&nbsp&nbsp</i>Experiencia<i>&nbsp&nbsp•&nbsp&nbsp</i>Seguridad</h1>
 </div>
 
 <nav class="uk-navbar uk-width-1-1 uk-hidden-small">
     <ul class="uk-flex uk-flex-center uk-navbar-nav">
-        <li><a href="nosotros.php" class="uk-navbar-nav-subtitle">
+        <li><a href="#am-nosotros" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 90}">
                 <div class="uk-flex uk-flex-center am-menu-icon">
                     <img src="assets/images/nosotros.svg" width="40" height="40">
                 </div>
