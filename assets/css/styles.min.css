@@ -3,41 +3,95 @@
  */
 
 body {
-    background-color: #293359;
-    color: #fff;
+    background-color: #162549;
+    color: #3A79B0;
     font-size: 1.1em;
+    padding-bottom: 100px;
 }
 
 h1, h2, h3, h4, p, span, a, i {
-    color: #ffff;
+    color: #3A79B0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background: #293359;
+    padding: 10px;
+    -webkit-box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
+    -moz-box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
+    box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
 }
 
 /**
  * Custome styles
  */
 
-.home-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 150px;
+.am-text-white {
+    color: #fff;
 }
 
-.home-bg {
-    background-image: url("../images/NASA_fotoprueba.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 50%;
-    background-position-y: 10%;
-    height: 400px;
+.am-sections-container {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
-.separador {
-    border-top: 1px solid #FFF;
+.am-padding-block {
+    padding: 0px 20px;
+}
+
+.am-relative {
     position: relative;
-    left: 25%;
-    right: 45%;
-    width: 50%;
+}
+
+#am-us-block-01, #am-us-block-02, #am-us-block-03, #am-us-block-04 {
+    position: absolute;
+    font-size: 20px;
+}
+
+#am-us-block-01, #am-us-block-02 {
+    top: 80px;
+}
+
+#am-us-block-01, #am-us-block-03 {
+    left: -50px;
+}
+
+#am-us-block-03, #am-us-block-04 {
+    bottom: 75px;
+}
+
+#am-us-block-02, #am-us-block-04 {
+    right: -50px;
+}
+
+.am-head-ship-title, .am-head-terminal-title {
+    position: relative;
+    top: 20px;
+    padding: 50px 0px 0px 100px;
+    background-position-x: -20px;
+    background-position-y: -10px;
+    height: 45px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.am-head-ship-title {
+    background-image: url(../images/ship.svg);
+}
+
+.am-head-terminal-title {
+    background-image: url(../images/ship.svg);
+}
+
+.am-flota-container {
+    min-width: 478px;
+}
+
+.am-terminal-container {
+    width: 90%;
 }
 
 .am-text-menu {
@@ -48,20 +102,14 @@ h1, h2, h3, h4, p, span, a, i {
 .am-menu-icon {
     margin-top: 5px !important;
     margin-bottom: 4px;
-    width: 45px !important;
     height: 45px !important;
-}
-
-.am-head-category {
-    color: rgb(170, 201, 223);
-    font-size: 3.5em;
-    padding-top: 30px;
 }
 
 .am-footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 2;
 }
 
 .am-text-footer, .am-text-footer > a {
@@ -69,70 +117,8 @@ h1, h2, h3, h4, p, span, a, i {
     color: rgb(170, 201, 223) !important;
 }
 
-.am-flota-text {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 370px;
-    left: 430px;
-}
-
-.am-ExpInt-text{
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 370px;
-    right: 410px;
-}
-
-.am-trip-text {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 430px;
-    top: 545px;
-}
-
-.am-termMat-text {
-    position: absolute;
-    width: 150px;
-    height: 120px;
-    right: 370px;
-    top: 545px;
-}
-
-.am-head-category-small {
-    color: rgb(170, 201, 223);
-    font-size: 1.5em;
-    padding-top: 30px;
-    text-align: center;
-}
-
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-li {
-    margin-bottom: 40px;
-    font-size: 1.2em;
-}
-
-.am-head-im-ship {
-    position: absolute;
-    left: -100px;
-    top: -75px;
-}
-
-.am-head-ship-title {
-    color: #FFF;
-    font-size: 2em;
-    position: absolute;
-    top: -30px;
-}
-
 .am-block-parent {
-    padding: 60px 100px;
+    padding: 0px 50px;
 }
 
 .am-block {
@@ -140,72 +126,83 @@ li {
     -moz-box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     position: relative;
-    padding: 50px 35px;
+    padding: 30px 10px;
     padding-bottom: 5px;
 }
 
-.am-places-buque {
+.am-list-terminal {
+    list-style: circle;
+    margin-bottom: 50px !important;
+}
+
+.am-terminal-float-text {
     position: absolute;
-    left: 125px;
-    padding-top: 10px;
+    top: 80px;
+    right: 10%;
 }
 
-
-
-.am-places-buque > p {
-    color: white;
-    font-size: 1.5em;
-    text-align: lef;
-}
-
-.am-quantity-buque {
-    position: absolute;
-    left: 380px;
-    height: 180px;
-    width: 120px;
-    padding-top: 10px;
-}
-
-.am-quantity-buque > p {
-    color: #FFF;
-    font-size: 1.5em;
-    width: 200px;
-    height: 20px;
-}
-
-.am-text-exp-mar > p {
-    color: white;
-    font-size: 1.5em;
-}
-
-.am-list-terminal > li {
-
-    list-style:square;
+.am-client {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+    -moz-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+    box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
 }
 
 @media screen and (max-width: 768px) {
-    .home-bg {
-        background-position-y: 0%;
-        height: 180px;
-    }
-
     .am-text-footer, .am-text-footer > a {
         font-size: 0.9em;
     }
 
-    .am-header-for-small {
-        font-size: 1.2em;
-    }
-
-    .separador {
-        border-top: 1px solid #FFF;
-        position: relative;
-        left: 10%;
-        width: 80%;
+    .am-list-terminal {
+        margin-bottom: 0px !important;
     }
 
     .am-block {
         margin-left: 20px;
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .am-block-parent {
+        padding: 0px 45px 0 25px;
+    }
+
+    .am-flota-container, .am-terminal-container {
+        min-width: 380px;
+    }
+
+    .am-head-ship-title, .am-head-terminal-title {
+        top: 30px;
+        padding: 32px 0px 0px 80px;
+        background-position-x: -5px;
+        background-size: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .am-block-parent {
+        padding: 0px 10px 0 25px;
+    }
+
+    .am-head-ship-title, .am-head-terminal-title {
+        top: 30px;
+        padding: 25px 0px 0px 70px;
+        background-position-x: -5px;
+        background-size: 90%;
+    }
+
+    .am-flota-container, .am-terminal-container {
+        min-width: 320px;
     }
 }
