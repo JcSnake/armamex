@@ -1,6 +1,6 @@
 
 /**
- * UK-nabar styles
+ * UIKit nabar styles
  */
 
 .uk-navbar, .uk-navbar-nav {
@@ -47,4 +47,40 @@
     -webkit-filter: grayscale(0.8);
     -moz-filter: grayscale(0.8);
     filter: grayscale(0.8);
+}
+
+/**
+ * UIKit form styles
+ */
+
+.uk-form-horizontal .uk-form-label {
+    width: 100px;
+    margin-top: 5px;
+    float: left;
+}
+
+.uk-form-horizontal .uk-form-controls {
+    margin-left: 100px;
+}
+
+.uk-form textarea {
+    width: 100%;
+}
+
+.uk-form-horizontal .am-form-label {
+    width: 200px !important;
+    margin-top: 5px !important;
+    float: left !important;
+}
+
+.uk-form-horizontal .am-form-controls {
+    margin-left: 205px !important;
+}
+
+/**
+ * UIKit button styles
+ */
+
+.uk-button-primary {
+    background-color: #3A79B0 !important;
 }

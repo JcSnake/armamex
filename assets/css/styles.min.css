@@ -2,7 +2,7 @@
  * General Styles
  */
 
-body {
+html, body {
     background-color: #162549;
     color: #3A79B0;
     font-size: 1.1em;
@@ -25,9 +25,32 @@ footer {
     box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
 }
 
+select, input[type="text"], input[type="number"], input[type="email"], input[type="radio"], input[type="checkbox"], textarea {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: #eee !important;
+    opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+    color: #eee !important;
+}
+
+::-ms-input-placeholder {
+    color: #eee !important;
+}
+
 /**
  * Custome styles
  */
+
+#am-nosotros, #am-flota, #am-terminal, #am-servicios, #am-cotization, #am-experiencia, #am-clientes, #am-contacto {
+    min-height: 550px;
+}
 
 .am-text-white {
     color: #fff;
@@ -148,6 +171,46 @@ footer {
     -webkit-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
     -moz-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
     box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+}
+
+.am-contacto-float-text {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.am-contacto2-float-text {
+    position: absolute;
+    top: 150px;
+    right: 5%;
+}
+
+.am-image-margin {
+    margin-top: 20px;
+}
+
+.am-image-margin2 {
+    margin-top: 60px;
+}
+
+.am-image-margin3 {
+    margin-top: 50px;
+}
+
+.am-line-height-zero {
+    margin: 0;
+    line-height: 1;
+    word-break: break-all
+}
+
+.am-form-yes, .am-form-no {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.am-form-no {
+    left: 75px;
 }
 
 @media screen and (max-width: 768px) {

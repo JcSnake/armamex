@@ -10,7 +10,8 @@ $lng = [];
 $lng['code'] = 'es';
 $lng['dir'] = 'ltr';
 
-$lng['version'] = '1.0b';
+$lng['version'] = '1.0b'.date("h:i:sa");
+$lng['release'] = '1';
 $lng['metaDescription'] = '';
 $lng['metaKeywords'] = '';
 $lng['dcterms'] = 'Derechos de autor Armamex &copy; 2017';
@@ -107,6 +108,92 @@ $lng['serviceTerminal1'] = 'Muellaje';
 $lng['serviceTerminal2'] = 'Reparaciones';
 $lng['serviceTerminal3'] = 'Suminsitro de corriente eléctrica';
 $lng['serviceTerminal4'] = 'Recolección de residuos';
-$lng['serviceTerminal5'] = 'Área Conurbada <br>Tampico, Tamps. <br>Superficie: 18 Hectáreas'
+$lng['serviceTerminal5'] = 'Área Conurbada <br>Tampico, Tamps. <br>Superficie: 18 Hectáreas';
+
+$lng['headFletamento'] = 'Fletamento';
+$lng['headAssitance'] = 'Asistencia';
+$lng['fletament1'] = 'Fletamento de embarcaciones';
+$lng['fletament2'] = 'Buques cisterna: CPP y DPP';
+$lng['fletament3'] = 'Buques de apoyo offshore';
+$lng['fletament4'] = 'Remolcadores y barcazas';
+
+$lng['headTransport'] = 'Transporte de carga';
+$lng['transport1'] = 'Transporte de carga';
+$lng['transport2'] = 'Carga general rotativa';
+$lng['transport3'] = 'Proyectos de carga especiales de gran tamaño';
+
+$lng['headMantenimiento'] = 'Mantenimiento';
+$lng['maintenance1'] = 'Mantenimiento de embarcaciones';
+$lng['maintenance2'] = 'Servicios de astilleron';
+$lng['maintenance3'] = 'Reparaciones Dry-Dock & Afloat';
+$lng['maintenance4'] = 'Construcción';
+$lng['maintenance4'] = 'Reciclaje de barcos';
+
+$lng['headDevelopment'] = 'Desarrollo';
+$lng['development1'] = 'Desarrollo de infraestructura portuaría';
+$lng['development2'] = 'Construcción de rompeolas y literas';
+$lng['development3'] = 'Dragado';
+
+$lng['headClients'] = 'Clientela Internacional';
+$lng['headContact'] = 'Contacto';
+$lng['headCotizacion'] = 'Solicitante';
+$lng['cotizacionTitle'] = 'Estamos para servirle';
+$lng['contacto'] = '¿Cómo podemos ayudarle?';
+$lng['contactoSuccess'] = '¡Gracias!';
+$lng['contactoSuccessMsg'] = 'Su mensaje ha sido recibido. <br>Nos pondremos en contacto lo más pronto posible.';
+
+$lng['contactName'] = 'Nombre';
+$lng['contactMail'] = 'Email';
+$lng['contactMessage'] = 'Mensaje';
+$lng['contactPhone'] = 'Teléfono';
+$lng['contactService'] = 'Servicio';
+$lng['contactFletador'] = 'Fletador';
+$lng['contactType'] = 'Tipo';
+$lng['contactTypeEmtpy'] = 'Seleccione una opción';
+$lng['contactTypeOpt1'] = 'Fletamentos';
+$lng['contactTypeOpt2'] = 'Remolques';
+$lng['contactTypeOpt3'] = 'Transporte Marítimo';
+
+$lng['fieldOptional'] = 'Opcional';
+$lng['fieldOptYes'] = 'Si';
+$lng['fieldOptNo'] = 'No';
+
+$lng['opt1Field01'] = 'Cantidad';
+$lng['opt1Field02'] = 'Tipo de Embarcación';
+$lng['opt1Field03'] = 'Capacidad';
+$lng['opt1Field04'] = 'Área de Operación';
+$lng['opt1Field05'] = 'Ventana de Entrega';
+$lng['opt1Field06'] = 'Periodo Principal';
+$lng['opt1Field07'] = 'Periodo de Extensión';
+$lng['opt1Field08'] = 'Especificaciones';
+
+$lng['opt2Field01'] = 'Salida';
+$lng['opt2Field02'] = 'Peso Muerto';
+$lng['opt2Field03'] = 'Eslora/Manga/Puntal';
+$lng['opt2Field04'] = 'Calado';
+$lng['opt2Field05'] = 'T.R.B';
+$lng['opt2Field06'] = 'Entrada';
+$lng['opt2Field07'] = 'Desplazamiento';
+$lng['opt2Field08'] = 'Tripulación';
+$lng['opt2Field09'] = 'Condición';
+$lng['opt2Field10'] = 'Especificaciones';
+
+$lng['opt3Field01'] = 'Fecha de Embarque';
+$lng['opt3Field02'] = 'Cantidad';
+$lng['opt3Field03'] = 'Tipo de Carga';
+$lng['opt3Field04'] = 'Sistema de Carga';
+$lng['opt3Field05'] = 'Sistema de Descarga';
+$lng['opt3Field06'] = 'Entrada';
+$lng['opt3Field07'] = 'Sobredimensionada';
+$lng['opt3Field08'] = 'A Granel';
+$lng['opt3Field09'] = 'Liquida';
+$lng['opt3Field10'] = 'Solida';
+$lng['opt3Field11'] = 'Especificaciones de Carga';
+
+$lng['infoContact1'] = 'Armamex Mexico';
+$lng['infoContact2'] = 'Ing. Ernesto Roman <br>Mexico: 55-55-55-55 <br>comercializacion@armamex.com';
+$lng['infoContact3'] = 'Armamex Internacional';
+$lng['infoContact4'] = 'Ing. Jose Guillermo Davila Mora <br>Houston: 55-55-55-55 <br>jgdavila@armamex.com';
+$lng['sendButton'] = 'Enviar';
 
 ?>
