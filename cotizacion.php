@@ -221,7 +221,83 @@
             <div class="am-block-parent uk-contrast">
                 <div class="am-block">
                     <form id="cotizacionOpt3Frm" class="uk-block uk-form uk-form-horizontal">
-
+                        <div class="uk-grid">
+                            <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Salida"><?=$lng['opt3Field01']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOpt2Salida" name="cotOpt2Salida" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field01']?>">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Peso"><?=$lng['opt3Field02']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOpt2Peso" name="cotOpt2Peso" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field02']?>">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Esolra"><?=$lng['opt3Field03']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOpt2Esolra" name="cotOpt2Esolra" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field03']?>">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Calado"><?=$lng['opt3Field04']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOpt2Calado" name="cotOpt1Quantity" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field04']?>">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOptTRB"><?=$lng['opt3Field05']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOptTRB" name="cotOptTRB" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field05']?>">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Entrada"><?=$lng['opt3Field06']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                        <input id="cotOpt2Entrada" name="cotOpt2Entrada" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt3Field06']?>">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field07']?>:</label>
+                                    <div class="uk-form-controls am-relative am-form-controls">
+                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field08']?>:</label>
+                                    <div class="uk-form-controls am-relative am-form-controls">
+                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field09']?>:</label>
+                                    <div class="uk-form-controls am-relative am-form-controls">
+                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field10']?>:</label>
+                                    <div class="uk-form-controls am-relative am-form-controls">
+                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Especificaciones"><?=$lng['opt3Field11']?>:</label>
+                                    <div class="uk-form-controls am-form-controls">
+                                    <textarea id="cotOpt2Especificaciones" name="cotOpt2Especificaciones" class="uk-width-1-1" rows="5" cols="10" placeholder="<?=$lng['fieldOptional']?>"></textarea>
+                                    </div>
+                                </div>
+                                <div class="uk-form-row">
+                                    <div class="uk-text-right">
+                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
