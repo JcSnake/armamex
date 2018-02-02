@@ -77,6 +77,11 @@
     margin-left: 205px !important;
 }
 
+.uk-block {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
 /**
  * UIKit button styles
  */

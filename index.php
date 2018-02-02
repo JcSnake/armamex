@@ -17,19 +17,19 @@ require_once('assets/lang/es/init.php');
         <div class="uk-slidenav-position uk-hidden-small" data-uk-slideshow="{animation: 'scale', kenburns: true, autoplay: true, autoplayInterval: 3000, pauseOnHover: false}">
             <ul class="uk-slideshow uk-overlay-active">
                 <li>
-                    <img src="/assets/images/slider/slide01.jpg" width="2000" height="800" alt="Slide 01">
+                    <img src="/assets/images/slider/slide01.jpg" width="2700" height="900" alt="Slide 01">
                     <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
                         <h3 class="uk-text-center"><?=$lng['slider01Txt']?></h3>
                     </div>
                 </li>
                 <li>
-                    <img src="/assets/images/slider/slide02.jpg" width="2000" height="800" alt="Slide 02">
+                    <img src="/assets/images/slider/slide02.jpg" width="2700" height="900" alt="Slide 02">
                     <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
                         <h3 class="uk-text-center"><?=$lng['slider02Txt']?></h3>
                     </div>
                 </li>
                 <li>
-                    <img src="/assets/images/slider/slide03.jpg" width="2000" height="800" alt="Slide 03">
+                    <img src="/assets/images/slider/slide03.jpg" width="2700" height="900" alt="Slide 03">
                     <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
                         <h3 class="uk-text-center"><?=$lng['slider03Txt']?></h3>
                     </div>
