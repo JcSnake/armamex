@@ -6,7 +6,8 @@
         </div>
         <div class="am-block-parent uk-contrast">
             <div class="am-block">
-                <p><?=$lng['messageFormCot']?></p>
+                <p class="uk-hidden-small uk-text-medium"><?=$lng['messageFormCot']?></p>
+                <p class="uk-visible-small uk-text-center uk-text-small"><?=$lng['messageFormCot']?></p>
                 <form id="solicitanteFrm" class="uk-block uk-form uk-form-horizontal">
                     <div class="uk-form-row">
                         <div class="uk-grid">

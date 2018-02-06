@@ -268,4 +268,5 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
     .am-flota-container, .am-terminal-container {
         min-width: 320px;
     }
+
 }

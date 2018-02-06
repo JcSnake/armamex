@@ -193,7 +193,7 @@ $lng['opt3Field11'] = 'Especificaciones de Carga';
 $lng['infoContact1'] = 'Armamex Mexico';
 $lng['infoContact2'] = 'Ing. Ernesto Roman <br>Mexico: 55-55-55-55 <br>comercializacion@armamex.com';
 $lng['infoContact3'] = 'Armamex Internacional';
-$lng['infoContact4'] = 'Ing. Jose Guillermo Davila Mora <br>Houston: 55-55-55-55 <br>jgdavila@armamex.com';
+$lng['infoContact4'] = 'Ing. Jose Guillermo Davila <br>Houston: 55-55-55-55 <br>jgdavila@armamex.com';
 $lng['sendButton'] = 'Enviar';
 
 $lng['messageFormCot'] = 'Favor de llenar los siguientes campos y seleccionar el tipo de cotización';

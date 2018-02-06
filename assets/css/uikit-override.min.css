@@ -73,6 +73,10 @@
     float: left !important;
 }
 
+.uk-form input[type=text],.uk-form textarea, input[type=number], .uk-form select {
+    font-size: 0.6em;
+}
+
 .uk-form-horizontal .am-form-controls {
     margin-left: 205px !important;
 }
