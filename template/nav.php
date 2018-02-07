@@ -21,6 +21,14 @@
 <nav class="uk-navbar uk-hidden-small uk-text-center" data-uk-sticky>
     <ul class="uk-flex uk-flex-center uk-navbar-nav">
         <li class="am-menu-link">
+            <a href="#am-experiencia" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 100}">
+                <div class="am-menu-icon">
+                    <img src="/assets/images/nav/experiencia.svg" width="40" height="40" alt="<?=$lng['menuExpirience']?>">
+                </div>
+                <div class="am-text-menu"><?=$lng['menuExpirience']?></div>
+            </a>
+        </li>
+        <li class="am-menu-link">
             <a href="#am-nosotros" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 100}">
                 <div class="am-menu-icon">
                     <img src="/assets/images/nav/nosotros.svg" width="40" height="40" alt="<?=$lng['menuUs']?>">
@@ -59,15 +67,7 @@
                 </div>
                 <div class="am-text-menu"><?=$lng['menuCotizacion']?></div>
             </a>
-        </li>
-        <li class="am-menu-link">
-            <a href="#am-experiencia" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 100}">
-                <div class="am-menu-icon">
-                    <img src="/assets/images/nav/experiencia.svg" width="40" height="40" alt="<?=$lng['menuExpirience']?>">
-                </div>
-                <div class="am-text-menu"><?=$lng['menuExpirience']?></div>
-            </a>
-        </li>
+        </li>        
         <li class="am-menu-link">
             <a href="#am-clientes" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 100}">
                 <div class="am-menu-icon">
@@ -103,6 +103,12 @@
             <h5><?=$lng['subtitleCompany']?></h5>
         </div>
         <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon">
+            <li>
+                <a href="#am-experiencia" data-uk-smooth-scroll="{offset: 50}">
+                    <i><img src="/assets/images/nav/experiencia.svg" width="30" height="30" alt="<?=$lng['menuExpirience']?>"></i>
+                        <?=$lng['menuExpirience']?>
+                </a>
+            </li>
             <li>
                 <a href="#am-nosotros" data-uk-smooth-scroll="{offset: 50}">
                     <i><img src="/assets/images/nav/nosotros.svg" width="30" height="30" alt="<?=$lng['menuUs']?>"></i>

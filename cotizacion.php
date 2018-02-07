@@ -13,19 +13,19 @@
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionName"><?=$lng['contactName']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactName']?>">
+                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactNameF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionEmail"><?=$lng['contactMail']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMail']?>">
+                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMailF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionService"><?=$lng['contactService']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionService" name="cotizacionService" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactService']?>">
+                                    <input id="cotizacionService" name="cotizacionService" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactServiceF']?>">
                                 </div>
                             </div>
                         </div>
@@ -35,13 +35,13 @@
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionPhone"><?=$lng['contactPhone']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionPhone" name="cotizacionPhone" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactPhone']?>">
+                                    <input id="cotizacionPhone" name="cotizacionPhone" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactPhoneF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionFletador"><?=$lng['contactFletador']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionFletador" name="cotizacionFletador" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactFletador']?>">
+                                    <input id="cotizacionFletador" name="cotizacionFletador" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactFletadorF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3">
