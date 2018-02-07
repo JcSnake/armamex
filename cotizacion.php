@@ -6,26 +6,27 @@
         </div>
         <div class="am-block-parent uk-contrast">
             <div class="am-block">
-                <p><?=$lng['messageFormCot']?></p>
+                <p class="uk-hidden-small uk-text-medium"><?=$lng['messageFormCot']?></p>
+                <p class="uk-visible-small uk-text-center uk-text-small"><?=$lng['messageFormCot']?></p>
                 <form id="solicitanteFrm" class="uk-block uk-form uk-form-horizontal">
                     <div class="uk-form-row">
                         <div class="uk-grid">
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionName"><?=$lng['contactName']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactNameF']?>">
+                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactName']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionEmail"><?=$lng['contactMail']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMailF']?>">
+                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMail']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionService"><?=$lng['contactService']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionService" name="cotizacionService" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactServiceF']?>">
+                                    <input id="cotizacionService" name="cotizacionService" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactService']?>">
                                 </div>
                             </div>
                         </div>
@@ -35,13 +36,13 @@
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionPhone"><?=$lng['contactPhone']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionPhone" name="cotizacionPhone" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactPhoneF']?>">
+                                    <input id="cotizacionPhone" name="cotizacionPhone" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactPhone']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionFletador"><?=$lng['contactFletador']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionFletador" name="cotizacionFletador" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactFletadorF']?>">
+                                    <input id="cotizacionFletador" name="cotizacionFletador" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactFletador']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3">

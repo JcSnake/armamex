@@ -10,29 +10,31 @@
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-margin-bottom">
                         <form id="contactFrm" class="uk-form uk-form-horizontal">
                             <div class="uk-form-row">
-                                <label class="uk-form-label uk-hidden-small" for="name"><?=$lng['contactName']?>:</label>
+                                <label class="uk-form-label uk-hidden-small" for="frmName"><sup class="am-mandatory">*</sup>&nbsp;<?=$lng['contactName']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="name" name="name" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactNameF']?>">
+                                    <input id="frmName" name="frmName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactNameF']?>">
                                 </div>
                             </div>
                             <div class="uk-form-row">
-                                <label class="uk-form-label uk-hidden-small" for="email"><?=$lng['contactMail']?>:</label>
+                                <label class="uk-form-label uk-hidden-small" for="frmEmail"><sup class="am-mandatory">*</sup>&nbsp;<?=$lng['contactMail']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="email" name="email" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMailF']?>">
+                                    <input id="frmEmail" name="frmEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMailF']?>">
                                 </div>
                             </div>
                             <div class="uk-form-row">
-                                <label class="uk-form-label uk-hidden-small" for="phone"><?=$lng['contactPhone']?>:</label>
+                                <label class="uk-form-label uk-hidden-small" for="frmPhone"><sup class="am-mandatory">*</sup>&nbsp;<?=$lng['contactPhone']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="phone" name="phone" class="uk-width-1-1" type="number" placeholder="<?=$lng['contactPhoneF']?>">
+                                    <input id="frmPhone" name="frmPhone" class="uk-width-1-1" type="number" placeholder="<?=$lng['contactPhoneF']?>">
                                 </div>
                             </div>
                             <div class="uk-form-row">
-                                <label class="uk-form-label uk-hidden-small" for="message"><?=$lng['contactMessage']?>:</label>
+                                <label class="uk-form-label uk-hidden-small" for="frmMessage"><?=$lng['contactMessage']?>:</label>
                                 <div class="uk-form-controls">
-                                    <textarea id="message" name="message" cols="50" rows="5" placeholder="<?=$lng['contactMessageF']?>"></textarea>
+                                    <textarea id="frmMessage" name="frmMessage" cols="50" rows="5" placeholder="<?=$lng['contactMessageF']?>"></textarea>
                                 </div>
-                                <label class="uk-form-label uk-hidden-small am-label-obligatorio" for="obligatorio"><?=$lng['contactCampos']?>:</label>
+                            </div>
+                            <div class="uk-form-row">
+                                <span class="am-font-small am-label-obligatorio am-text-white" for="obligatorio"><?=$lng['contactCampos']?></span>
                             </div>
                             <div class="uk-form-row">
                                 <div class="uk-form-controls">                                    

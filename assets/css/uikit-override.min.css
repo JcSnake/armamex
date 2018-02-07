@@ -16,7 +16,7 @@
 }
 
 .uk-navbar-nav > li {
-    width: 100px !important;
+    width: 200px !important;
 }
 
 .uk-navbar-nav > li:hover {
@@ -73,6 +73,10 @@
     float: left !important;
 }
 
+.uk-form input[type=text],.uk-form textarea, input[type=number], .uk-form select {
+    font-size: 0.6em;
+}
+
 .uk-form-horizontal .am-form-controls {
     margin-left: 205px !important;
 }
@@ -88,4 +92,20 @@
 
 .uk-button-primary {
     background-color: #3A79B0 !important;
+}
+
+/**
+ * UIKit form
+ */
+
+.uk-contrast .uk-form input:not([type]), .uk-contrast .uk-form input[type=text], .uk-contrast .uk-form input[type=password], .uk-contrast .uk-form input[type=email], .uk-contrast .uk-form input[type=url], .uk-contrast .uk-form input[type=search], .uk-contrast .uk-form input[type=tel], .uk-contrast .uk-form input[type=number], .uk-contrast .uk-form input[type=datetime], .uk-contrast .uk-form input[type=datetime-local], .uk-contrast .uk-form input[type=date], .uk-contrast .uk-form input[type=month], .uk-contrast .uk-form input[type=time], .uk-contrast .uk-form input[type=week], .uk-contrast .uk-form input[type=color], .uk-contrast .uk-form select, .uk-contrast .uk-form textarea {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.uk-contrast .uk-form input:not([type]):focus, .uk-contrast .uk-form input[type=text]:focus, .uk-contrast .uk-form input[type=password]:focus, .uk-contrast .uk-form input[type=email]:focus, .uk-contrast .uk-form input[type=url]:focus, .uk-contrast .uk-form input[type=search]:focus, .uk-contrast .uk-form input[type=tel]:focus, .uk-contrast .uk-form input[type=number]:focus, .uk-contrast .uk-form input[type=datetime]:focus, .uk-contrast .uk-form input[type=datetime-local]:focus, .uk-contrast .uk-form input[type=date]:focus, .uk-contrast .uk-form input[type=month]:focus, .uk-contrast .uk-form input[type=time]:focus, .uk-contrast .uk-form input[type=week]:focus, .uk-contrast .uk-form input[type=color]:focus, .uk-contrast .uk-form select:focus, .uk-contrast .uk-form textarea:focus {
+    background-color: #222;
+    color: #fff;
+    border: none;
 }

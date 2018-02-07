@@ -32,5 +32,6 @@
     <link rel="stylesheet" href="/assets/css/styles.min.css?v=<?=$lng['version']?>_r<?=$lng['release']?>">
     <link rel="stylesheet" href="/assets/css/uikit-override.min.css?v=<?=$lng['version']?>_r<?=$lng['release']?>">
     <script src="/assets/js/funcs.min.js?v=<?=$lng['version']?>_r<?=$lng['release']?>"></script>
+    <script src="/assets/lang/<?=$lng['code']?>/init.js?v=<?=$lng['version']?>_r<?=$lng['release']?>"></script>
 
 </head>

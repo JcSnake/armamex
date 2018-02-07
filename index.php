@@ -9,29 +9,33 @@ require_once('assets/lang/es/init.php');
     <title><?=$lng['title']?></title>
     <?php require_once('template/head.php'); ?>
 </head>
-<body>
+<body id="am-top">
 
     <?php require_once('template/nav.php'); ?>
+
+    <div id="am-top-button" class="uk-border-circle uk-hidden">
+        <h1 class="uk-icon-chevron-up"></h1>
+    </div>
     
     <section id="am-slider uk-padding-remove">
         <div class="uk-slidenav-position uk-hidden-small" data-uk-slideshow="{animation: 'scale', kenburns: true, autoplay: true, autoplayInterval: 3000, pauseOnHover: false}">
             <ul class="uk-slideshow uk-overlay-active">
                 <li>
                     <img src="/assets/images/slider/slide01.jpg" width="2700" height="900" alt="Slide 01">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
-                        <h3 class="uk-text-center"><?=$lng['slider01Txt']?></h3>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
+                        <h1 class="uk-text-center"><?=$lng['slider01Txt']?></h1>
                     </div>
                 </li>
                 <li>
                     <img src="/assets/images/slider/slide02.jpg" width="2700" height="900" alt="Slide 02">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
-                        <h3 class="uk-text-center"><?=$lng['slider02Txt']?></h3>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
+                        <h1 class="uk-text-center"><?=$lng['slider02Txt']?></h1>
                     </div>
                 </li>
                 <li>
                     <img src="/assets/images/slider/slide03.jpg" width="2700" height="900" alt="Slide 03">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
-                        <h3 class="uk-text-center"><?=$lng['slider03Txt']?></h3>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
+                        <h1 class="uk-text-center"><?=$lng['slider03Txt']?></h1>
                     </div>
                 </li>
             </ul>

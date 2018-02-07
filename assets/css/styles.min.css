@@ -7,14 +7,17 @@ html, body {
     color: #3A79B0;
     font-size: 1.1em;
     padding-bottom: 100px;
+    font-family: 'helvetica_neueregular', sans-serif;
 }
 
 h1, h2, h3, h4, p, span, a, i {
     color: #3A79B0;
+    font-family: 'helvetica_neueregular', sans-serif;
 }
 
 ul {
     list-style-type: none;
+    font-family: 'helvetica_neueregular', sans-serif;
 }
 
 footer {
@@ -23,12 +26,6 @@ footer {
     -webkit-box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
     -moz-box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
     box-shadow: -1px -3px 10px 2px rgba(35, 35, 35, 0.8);
-}
-
-select, input[type="text"], input[type="number"], input[type="email"], input[type="radio"], input[type="checkbox"], textarea {
-    background-color: #000 !important;
-    color: #fff !important;
-    border: none !important;
 }
 
 ::placeholder {
@@ -45,6 +42,19 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
 }
 
 /**
+ * Custome fonts
+ */
+
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
  * Custome styles
  */
 
@@ -52,8 +62,52 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
     min-height: 550px;
 }
 
+#am-nosotros-container {
+    max-width: 630px;
+}
+
+#am-nosotros-small {
+    background-image: url(../images/nosotros_page_small.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 290px;
+    padding-left: 120px;
+    min-height: 300px;
+    width: 160px;
+    margin: 0 auto;
+}
+
+#am-nosotros-small > div {
+    margin-bottom: 40px;
+}
+
+#am-top-button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #000;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#am-top-button h1 {
+    margin-top: 4px;
+}
+
 .am-text-white {
     color: #fff;
+}
+
+.am-mandatory {
+    color: #FE2E2E;
+}
+
+.am-font-small {
+    font-size: 14px;
 }
 
 .am-sections-container {
@@ -120,6 +174,7 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
 .am-text-menu {
     font-size: 0.7em !important;
     text-align: center !important;
+    color: #AFD7F0;
 }
 
 .am-menu-icon {
@@ -213,6 +268,14 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
     left: 75px;
 }
 
+.am-form-success {
+    border: 1px solid #659f13 !important;
+}
+
+.am-form-danger {
+    border: 1px solid #d85030 !important;
+}
+
 @media screen and (max-width: 768px) {
     .am-text-footer, .am-text-footer > a {
         font-size: 0.9em;
@@ -268,4 +331,5 @@ select, input[type="text"], input[type="number"], input[type="email"], input[typ
     .am-flota-container, .am-terminal-container {
         min-width: 320px;
     }
+
 }
