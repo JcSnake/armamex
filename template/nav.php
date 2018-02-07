@@ -1,15 +1,23 @@
 <section class="uk-block uk-text-center uk-contrast">
     <div class="uk-grid uk-grid-collapse">
-        <div class="uk-width-1-4">
+        <div class="uk-width-1-4 uk-hidden-small">
             <img src="/assets/images/nav/logo-armamex.svg" width="100" height="100" alt="Armamex">
+        </div>
+        <div class="uk-width-1-4 uk-visible-small">
+            <img src="/assets/images/nav/logo-armamex.svg" width="80" height="80" alt="Armamex">
         </div>
         <div class="uk-width-1-2">
             <h1><?=$lng['titleCompany']?></h1>
             <hr class="uk-width-1-1 uk-article-divider uk-hidden-small">
             <h2 class="uk-hidden-small"><?=$lng['subtitleCompany']?></h2>
         </div>
-        <div class="uk-width-1-4">
-            <img src="/assets/images/nav/ISM_claro.png" width="100" height="100" alt="ISM">
+        <div class="uk-width-1-4 uk-hidden-small">
+            <img src="/assets/images/nav/ismcode-blanco.svg" width="100" height="100" alt="ISM">
+            <img src="/assets/images/nav/iso-company.svg" width="90" height="90" alt="ISO">
+        </div>
+        <div class="uk-width-1-4 uk-visible-small">
+            <img src="/assets/images/nav/ismcode-blanco.svg" width="50" height="50" alt="ISM">
+            <img src="/assets/images/nav/iso-company.svg" width="50" height="50" alt="ISO">
         </div>
     </div>
     <div class="uk-visible-small">
@@ -66,14 +74,6 @@
                     <img src="/assets/images/nav/cotizacion.svg" width="40" height="40" alt="<?=$lng['menuCotizacion']?>">
                 </div>
                 <div class="am-text-menu"><?=$lng['menuCotizacion']?></div>
-            </a>
-        </li>        
-        <li class="am-menu-link">
-            <a href="#am-clientes" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="{offset: 100}">
-                <div class="am-menu-icon">
-                    <img src="/assets/images/nav/clientes.svg" width="40" height="40" alt="<?=$lng['menuClients']?>">
-                </div>
-                <div class="am-text-menu"><?=$lng['menuClients']?></div>
             </a>
         </li>
         <li class="am-menu-link">
@@ -137,18 +137,6 @@
                 <a href="#am-cotizacion" data-uk-smooth-scroll="{offset: 50}">
                     <i><img src="/assets/images/nav/cotizacion.svg" width="30" height="30" alt="<?=$lng['menuCotizacion']?>"></i>
                     <?=$lng['menuCotizacion']?>
-                </a>
-            </li>
-            <li>
-                <a href="#am-experiencia" data-uk-smooth-scroll="{offset: 50}">
-                    <i><img src="/assets/images/nav/experiencia.svg" width="30" height="30" alt="<?=$lng['menuExpirience']?>"></i>
-                    <?=$lng['menuExpirience']?>
-                </a>
-            </li>
-            <li>
-                <a href="#am-clientes" data-uk-smooth-scroll="{offset: 50}">
-                    <i><img src="/assets/images/nav/clientes.svg" width="30" height="30" alt="<?=$lng['menuClients']?>"></i>
-                    <?=$lng['menuClients']?>
                 </a>
             </li>
             <li>

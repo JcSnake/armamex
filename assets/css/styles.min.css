@@ -144,7 +144,7 @@ footer {
     right: -50px;
 }
 
-.am-head-ship-title, .am-head-terminal-title {
+.am-head-ship-title {
     position: relative;
     top: 20px;
     padding: 50px 0px 0px 100px;
@@ -155,12 +155,33 @@ footer {
     z-index: 1;
 }
 
+.am-head-terminal-title, .am-head-contacto-title, .am-head-cotizacion-title, .am-head-servicio-title {
+    position: relative;
+    top: 20px;
+    padding: 50px 0px 0px 100px;
+    height: 45px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
 .am-head-ship-title {
     background-image: url(../images/ship.svg);
 }
 
 .am-head-terminal-title {
-    background-image: url(../images/ship.svg);
+    background-image: url(../images/terminalcinta.svg);
+}
+
+.am-head-contacto-title {
+    background-image: url(../images/contactocinta.svg);
+}
+
+.am-head-cotizacion-title {
+    background-image: url(../images/cotizacioncinta.svg);
+}
+
+.am-head-servicio-title {
+    background-image: url(../images/servicioscinta.svg);
 }
 
 .am-flota-container {
@@ -321,14 +342,14 @@ footer {
         padding: 0px 10px 0 25px;
     }
 
-    .am-head-ship-title, .am-head-terminal-title {
+    .am-head-ship-title, .am-head-terminal-title, .am-head-contacto-title, .am-head-cotizacion-title {
         top: 30px;
         padding: 25px 0px 0px 70px;
         background-position-x: -5px;
         background-size: 90%;
     }
 
-    .am-flota-container, .am-terminal-container {
+    .am-flota-container, .am-terminal-container, .am-head-contacto-title, .am-head-cotizacion-title {
         min-width: 320px;
     }
 

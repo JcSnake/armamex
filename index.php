@@ -51,19 +51,19 @@ require_once('assets/lang/es/init.php');
             <ul class="uk-slideshow uk-overlay-active">
                 <li>
                     <img src="/assets/images/slider/slide01-sm.jpg" width="320" height="480" alt="Slide 01">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
                         <h3 class="uk-text-center"><?=$lng['slider01Txt']?></h3>
                     </div>
                 </li>
                 <li>
                     <img src="/assets/images/slider/slide02-sm.jpg" width="320" height="480" alt="Slide 02">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
                         <h3 class="uk-text-center"><?=$lng['slider02Txt']?></h3>
                     </div>
                 </li>
                 <li>
                     <img src="/assets/images/slider/slide03-sm.jpg" width="320" height="480" alt="Slide 03">
-                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle">
                         <h3 class="uk-text-center"><?=$lng['slider03Txt']?></h3>
                     </div>
                 </li>
@@ -86,7 +86,6 @@ require_once('assets/lang/es/init.php');
         include_once('servicios.php');
         include_once('cotizacion.php');
         include_once('experiencia.php');
-        include_once('clientes.php');
         include_once('contacto.php');
     ?>
     </div>

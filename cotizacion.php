@@ -1,7 +1,7 @@
 <section id="am-cotizacion" class="uk-container-center uk-margin-large-top am-terminal-container">
     <div id="cotizacionFrm">
         <h1 class="uk-text-center"><?=$lng['cotizacionTitle']?></h1>
-        <div class="am-head-terminal-title uk-contrast">
+        <div class="am-head-cotizacion-title uk-contrast">
             <h2><?=$lng['headCotizacion']?></h2>
         </div>
         <div class="am-block-parent uk-contrast">
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div id="cotizacionOpt1" class="uk-hidden">
-            <div class="am-head-terminal-title uk-contrast">
+            <div class="am-head-cotizacion-title uk-contrast">
                 <h2><?=$lng['contactTypeOpt1']?></h2>
             </div>
             <div class="am-block-parent uk-contrast">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div id="cotizacionOpt2" class="uk-hidden">
-            <div class="am-head-terminal-title uk-contrast">
+            <div class="am-head-cotizacion-title uk-contrast">
                 <h2><?=$lng['contactTypeOpt2']?></h2>
             </div>
             <div class="am-block-parent uk-contrast">
@@ -217,7 +217,7 @@
             </div>
         </div>
         <div id="cotizacionOpt3" class="uk-hidden">
-            <div class="am-head-terminal-title uk-contrast">
+            <div class="am-head-cotizacion-title uk-contrast">
                 <h2><?=$lng['contactTypeOpt3']?></h2>
             </div>
             <div class="am-block-parent uk-contrast">
