@@ -4,7 +4,7 @@
         <div class="am-head-cotizacion-title uk-contrast">
             <h2><?=$lng['headCotizacion']?></h2>
         </div>
-        <div class="am-block-parent uk-contrast">
+        <div id="solicitanteForm" class="am-block-parent uk-contrast">
             <div class="am-block">
                 <p class="uk-hidden-small uk-text-medium"><?=$lng['messageFormCot']?></p>
                 <p class="uk-visible-small uk-text-center uk-text-small"><?=$lng['messageFormCot']?></p>
@@ -266,7 +266,7 @@
                                 <div class="uk-form-row">
                                     <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field07']?>:</label>
                                     <div class="uk-form-controls am-relative am-form-controls">
-                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                        <input id="cotOpt1TripulacionYes" name="cotOpt1TripulacionYes" type="radio" class="uk-margin-left">
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
@@ -278,24 +278,24 @@
                                 <div class="uk-form-row">
                                     <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field09']?>:</label>
                                     <div class="uk-form-controls am-relative am-form-controls">
-                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                        <input id="cotOpt3TripulacionYes" name="cotOpt3TripulacionYes" type="radio" class="uk-margin-left">
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
                                     <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Desplazamiento"><?=$lng['opt3Field10']?>:</label>
                                     <div class="uk-form-controls am-relative am-form-controls">
-                                        <input id="cotOpt2TripulacionYes" name="cotOpt2TripulacionYes" type="radio" class="uk-margin-left">
+                                        <input id="cotOpt4TripulacionYes" name="cotOpt4TripulacionYes" type="radio" class="uk-margin-left">
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
                                     <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOpt2Especificaciones"><?=$lng['opt3Field11']?>:</label>
                                     <div class="uk-form-controls am-form-controls">
-                                    <textarea id="cotOpt2Especificaciones" name="cotOpt2Especificaciones" class="uk-width-1-1" rows="5" cols="10" placeholder="<?=$lng['fieldOptional']?>"></textarea>
+                                    <textarea id="cotOpt3Especificaciones" name="cotOpt3Especificaciones" class="uk-width-1-1" rows="5" cols="10" placeholder="<?=$lng['fieldOptional']?>"></textarea>
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-trans" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
