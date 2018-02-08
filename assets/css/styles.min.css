@@ -10,7 +10,16 @@ html, body {
     font-family: 'helvetica_neueregular', sans-serif;
 }
 
-h1, h2, h3, h4, p, span, a, i {
+h1 {
+    font-size: 48px;
+}
+
+h1, h2, h3, h4 {
+    color: #3A79B0;
+    font-family: 'helvetica_neue_cond', sans-serif;
+}
+
+p, span, a, i {
     color: #3A79B0;
     font-family: 'helvetica_neueregular', sans-serif;
 }
@@ -18,6 +27,10 @@ h1, h2, h3, h4, p, span, a, i {
 ul {
     list-style-type: none;
     font-family: 'helvetica_neueregular', sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -50,6 +63,22 @@ footer {
     src: url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.woff2') format('woff2'),
          url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.woff') format('woff'),
          url('../fonts/Helvetica Neue Thin/helveticaneue-thin-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica_neue_cond';
+    src: url('../fonts/Helvetica Neue Condensed/helveticaneue-condensed-webfont.woff') format('woff'),
+         url('../fonts/Helvetica Neue Condensed/helveticaneue-condensed-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica_neue_bold';
+    src: url('../fonts/Helvetica Neue Condensed Bold/helveticaneue-condensed-bold-webfont.woff') format('woff'),
+         url('../fonts/Helvetica Neue Condensed Bold/helveticaneue-condensed-bold-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -95,6 +124,7 @@ footer {
 }
 
 #am-top-button h1 {
+    font-size: 36px;
     margin-top: 4px;
 }
 
@@ -198,6 +228,10 @@ footer {
     color: #AFD7F0;
 }
 
+.am-text-menu:hover, .am-text-menu-hover {
+    color: #162549;
+}
+
 .am-menu-icon {
     margin-top: 5px !important;
     margin-bottom: 4px;
@@ -225,13 +259,26 @@ footer {
     -moz-box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 11px 5px rgba(0,0,0,0.75);
     position: relative;
-    padding: 30px 10px;
-    padding-bottom: 5px;
+    padding: 30px 20px;
+    padding-bottom: 15px;
+}
+
+.am-block p {
+    margin: 20px 0 20px 0 !important;
+}
+
+.am-padding-left {
+    padding-left: 40px;
 }
 
 .am-list-terminal {
-    list-style: circle;
     margin-bottom: 50px !important;
+}
+
+.am-list-terminal li::before {
+    content: "• ";
+    margin-right: 5px;
+    color: #3A79B0;
 }
 
 .am-terminal-float-text {
@@ -298,6 +345,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    #am-header {
+        padding-bottom: 0px !important;
+    }
+
     .am-text-footer, .am-text-footer > a {
         font-size: 0.9em;
     }
@@ -310,6 +361,17 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    #am-top-button {
+        bottom: 85px;
+        right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #am-top-button h1 {
+        margin-top: 2px;
+    }
 }
 
 @media screen and (max-width: 476px) {
@@ -319,6 +381,11 @@ footer {
 
     h2 {
         font-size: 18px;
+    }
+
+    #am-header > div {
+        width: 320px;
+        margin: 0 auto;   
     }
 
     .am-block-parent {

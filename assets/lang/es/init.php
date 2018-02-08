@@ -10,18 +10,18 @@ $lng = [];
 $lng['code'] = 'es';
 $lng['dir'] = 'ltr';
 
-$lng['version'] = '1.0b'.date("h:i:sa");
+$lng['version'] = '1.0b';
 $lng['release'] = '1';
 $lng['metaDescription'] = '';
-$lng['metaKeywords'] = '';
+$lng['metaKeywords'] = 'Transporte maritimo, cabotaje, transporte de hidrocarburos, tanqueros, remolcadores, remolcador,  chalanes, chalan,  abastecedores, fletamento, renta de embarcaciones, transporte fluvial, servicio offshore, terminal maritima';
 $lng['dcterms'] = 'Derechos de autor Armamex &copy; 2017';
-$lng['phoneNumber'] = '52-03-81-15';
+$lng['phoneNumber'] = '+52 (55) 52-03-81-15';
 $lng['linkPhoneNumber'] = '+5215552038115';
 $lng['copyright'] = 'Copyright 2017';
 $lng['emailContacto'] = 'comercializacion@armamex.com';
 
-$lng['title'] = 'Armamex';
-$lng['subtitleCompany'] = 'Calidad<i>&nbsp&nbsp•&nbsp&nbsp</i>Experiencia<i>&nbsp&nbsp•&nbsp&nbsp</i>Seguridad';
+$lng['title'] = 'Naviera Armamex';
+$lng['subtitleCompany'] = 'Calidad&nbsp&nbsp<i class="uk-icon-circle uk-icon-xsmall"></i>&nbsp&nbspExperiencia&nbsp&nbsp<i class="uk-icon-circle uk-icon-xsmall"></i>&nbsp&nbspSeguridad';
 $lng['flota'] = 'Conozca nuestras embarcaciones';
 $lng['nosotros'] = '40 años de experiencia marítima';
 $lng['titleCompany'] = 'Naviera Armamex';
@@ -213,9 +213,9 @@ $lng['opt3Field10F'] = 'Solida';
 $lng['opt3Field11F'] = 'Especificaciones de Carga';
 
 $lng['infoContact1'] = 'Armamex Mexico';
-$lng['infoContact2'] = 'Ing. Ernesto Roman <br>Mexico: +52 (55) 5203-8115 <br>comercializacion@armamex.com';
+$lng['infoContact2'] = 'Mexico: +52 (55) 5203-8115 <br>comercializacion@armamex.com';
 $lng['infoContact3'] = 'Armamex Internacional';
-$lng['infoContact4'] = 'Ing. Jose Guillermo Davila <br>Houston: +1(281)942-6100 <br>jgdavila@armamex.com';
+$lng['infoContact4'] = 'Houston: +1(281)942-6100 <br>jgdavila@armamex.com';
 $lng['sendButton'] = 'Enviar';
 
 $lng['messageFormCot'] = 'Favor de llenar los siguientes campos y seleccionar el tipo de cotización';

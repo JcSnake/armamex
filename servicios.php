@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-container-center uk-margin-bottom">
-                        <img src="/assets/images/servicios/fletamento.jpg" width="1200" height="1200" alt="Terminal">
+                        <img src="/assets/images/servicios/fletamento.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="1200" height="1200" alt="Terminal">
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-container-center uk-margin-bottom">
-                        <img src="/assets/images/servicios/cargo.jpg" width="800" height="100" alt="Carga">
+                        <img src="/assets/images/servicios/cargo.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="800" height="100" alt="Carga">
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-container-center uk-margin-bottom">
-                        <img src="/assets/images/servicios/asistencia.jpg" width="800" height="600" alt="Asistencia">
+                        <img src="/assets/images/servicios/asistencia.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="800" height="600" alt="Asistencia">
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-container-center uk-margin-bottom">
-                        <img src="/assets/images/servicios/mantenimiento.jpg" width="800" height="600" alt="Mantenimiento">
+                        <img src="/assets/images/servicios/mantenimiento.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="800" height="600" alt="Mantenimiento">
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-container-center uk-margin-bottom">
-                        <img src="/assets/images/servicios/desarrollo.jpg" width="800" height="600" alt="Terminal">
+                        <img src="/assets/images/servicios/desarrollo.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="800" height="600" alt="Terminal">
                     </div>
                 </div>
             </div>

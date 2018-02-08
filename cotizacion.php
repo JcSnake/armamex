@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-fletamentos" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +295,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>

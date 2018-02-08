@@ -9,11 +9,26 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['location1']?> <?=$lng['quantity1']?></li>
-                                <li><?=$lng['location2']?> <?=$lng['quantity2']?></li>
-                                <li><?=$lng['location3']?> <?=$lng['quantity3']?></li>
-                            </ul>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['location1']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity1']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['location2']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity2']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['location3']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity3']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -25,10 +40,7 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['director']?></li>
-                                <li><?=$lng['function']?></li>
-                            </ul>
+                            <p class="am-text-white"><?=$lng['director']?> <br><?=$lng['function']?></p>
                         </div>
                     </div>
                 </div>
@@ -40,10 +52,20 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['type1']?> <?=$lng['quantity4']?></li>
-                                <li><?=$lng['type2']?>  <?=$lng['quantity5']?></li>
-                            </ul>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['type1']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity4']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['type2']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity5']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,14 +77,44 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['buqueRM1']?> <?=$lng['quantity6']?></li>
-                                <li><?=$lng['buqueRM2']?> <?=$lng['quantity7']?></li>
-                                <li><?=$lng['buqueRM3']?> <?=$lng['quantity8']?></li>
-                                <li><?=$lng['buqueRM4']?> <?=$lng['quantity9']?></li>
-                                <li><?=$lng['buqueRM5']?> <?=$lng['quantity10']?></li>
-                                <li><?=$lng['buqueRM6']?> <?=$lng['quantity11']?></li>
-                            </ul>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM1']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity6']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM2']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity7']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM3']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity8']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM4']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity9']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM5']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity10']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['buqueRM6']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity11']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -74,10 +126,20 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['type3']?> <?=$lng['quantity12']?></li>
-                                <li><?=$lng['type4']?> <?=$lng['quantity13']?></li>
-                            </ul>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['type3']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity12']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['type4']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity13']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,14 +151,41 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <p class="am-text-white"><?=$lng['chSubtitle']?></p>
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['ch1']?> <?=$lng['quantity14']?></li>
-                                <li><?=$lng['ch2']?> <?=$lng['quantity15']?></li>
-                                <li><?=$lng['ch3']?> <?=$lng['quantity16']?></li>
-                                <li><?=$lng['ch4']?> <?=$lng['quantity17']?></li>
-                                <li><?=$lng['ch5']?> <?=$lng['quantity18']?></li>
-                            </ul>
+                            <div class="uk-margin-bottom">
+                                <span class="am-text-white"><?=$lng['chSubtitle']?></span>
+                            </div>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['ch1']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity14']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['ch2']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity15']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['ch3']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity16']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['ch4']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity17']?></p>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['ch5']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity18']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,12 +197,23 @@
                     </div>
                     <div class="am-block-parent">
                         <div class="am-block">
-                            <ul class="uk-padding-remove">
-                                <li><?=$lng['location4']?> <?=$lng['quantity19']?></li>
-                                <li><?=$lng['sublocation1']?></li>
-                                <li><?=$lng['sublocation2']?></li>
-                                <li><?=$lng['sublocation3']?></li>    
-                            </ul>
+                            <div class="uk-grid uk-grid-collapse">
+                                <div class="uk-width-1-2">
+                                    <p class="am-text-white"><?=$lng['location4']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity19']?></p>
+                                </div>
+                                <div class="uk-width-1-1 am-padding-left">
+                                    <p class="am-text-white"><?=$lng['sublocation1']?></p>
+                                </div>
+                                <div class="uk-width-1-1 am-padding-left">
+                                    <p class="am-text-white"><?=$lng['sublocation2']?></p>
+                                </div>
+                                <div class="uk-width-1-1 am-padding-left">
+                                    <p class="am-text-white"><?=$lng['sublocation3']?></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

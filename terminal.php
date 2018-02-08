@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="uk-width-small-1-1 uk-width-medium-4-5 uk-width-large-4-5 uk-container-center uk-margin-bottom">
-                <img class="uk-width-1-1" src="/assets/images/terminal.jpg" width="1000" height="600" alt="Terminal">
+                <img class="uk-width-1-1" src="/assets/images/terminal.jpg?v=<?=$lng['version']?>_r<?=$lng['release']?>" width="1000" height="600" alt="Terminal">
             </div>
         </div>
     </div>

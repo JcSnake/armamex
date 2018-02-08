@@ -19,10 +19,6 @@
     width: 200px !important;
 }
 
-.uk-navbar-nav > li:hover {
-    background-color: #FFF;
-}
-
 .uk-navbar-toggle {
     color: #fff;
 }
@@ -99,13 +95,23 @@
  */
 
 .uk-contrast .uk-form input:not([type]), .uk-contrast .uk-form input[type=text], .uk-contrast .uk-form input[type=password], .uk-contrast .uk-form input[type=email], .uk-contrast .uk-form input[type=url], .uk-contrast .uk-form input[type=search], .uk-contrast .uk-form input[type=tel], .uk-contrast .uk-form input[type=number], .uk-contrast .uk-form input[type=datetime], .uk-contrast .uk-form input[type=datetime-local], .uk-contrast .uk-form input[type=date], .uk-contrast .uk-form input[type=month], .uk-contrast .uk-form input[type=time], .uk-contrast .uk-form input[type=week], .uk-contrast .uk-form input[type=color], .uk-contrast .uk-form select, .uk-contrast .uk-form textarea {
-    background-color: #000;
+    background-color: #162040;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.uk-contrast .uk-form input:not([type]):focus, .uk-contrast .uk-form input[type=text]:focus, .uk-contrast .uk-form input[type=password]:focus, .uk-contrast .uk-form input[type=email]:focus, .uk-contrast .uk-form input[type=url]:focus, .uk-contrast .uk-form input[type=search]:focus, .uk-contrast .uk-form input[type=tel]:focus, .uk-contrast .uk-form input[type=number]:focus, .uk-contrast .uk-form input[type=datetime]:focus, .uk-contrast .uk-form input[type=datetime-local]:focus, .uk-contrast .uk-form input[type=date]:focus, .uk-contrast .uk-form input[type=month]:focus, .uk-contrast .uk-form input[type=time]:focus, .uk-contrast .uk-form input[type=week]:focus, .uk-contrast .uk-form input[type=color]:focus, .uk-contrast .uk-form select:focus, .uk-contrast .uk-form textarea:focus {
+    background-color: #162050;
     color: #fff;
     border: none;
 }
 
-.uk-contrast .uk-form input:not([type]):focus, .uk-contrast .uk-form input[type=text]:focus, .uk-contrast .uk-form input[type=password]:focus, .uk-contrast .uk-form input[type=email]:focus, .uk-contrast .uk-form input[type=url]:focus, .uk-contrast .uk-form input[type=search]:focus, .uk-contrast .uk-form input[type=tel]:focus, .uk-contrast .uk-form input[type=number]:focus, .uk-contrast .uk-form input[type=datetime]:focus, .uk-contrast .uk-form input[type=datetime-local]:focus, .uk-contrast .uk-form input[type=date]:focus, .uk-contrast .uk-form input[type=month]:focus, .uk-contrast .uk-form input[type=time]:focus, .uk-contrast .uk-form input[type=week]:focus, .uk-contrast .uk-form input[type=color]:focus, .uk-contrast .uk-form select:focus, .uk-contrast .uk-form textarea:focus {
-    background-color: #222;
-    color: #fff;
-    border: none;
+/**
+ * UIKit Icon
+ */
+
+.uk-icon-xsmall {
+    font-size: 70%;
+    vertical-align: 10%;
 }

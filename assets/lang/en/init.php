@@ -15,13 +15,13 @@ $lng['release'] = '1';
 $lng['metaDescription'] = '';
 $lng['metaKeywords'] = '';
 $lng['dcterms'] = 'Derechos de autor Armamex &copy; 2017';
-$lng['phoneNumber'] = '52-03-81-15';
+$lng['phoneNumber'] = '+52 (55) 52-03-81-15';
 $lng['linkPhoneNumber'] = '+5215552038115';
 $lng['copyright'] = 'Copyright 2017';
 $lng['emailContacto'] = 'comercializacion@armamex.com';
 
 $lng['title'] = 'Armamex';
-$lng['subtitleCompany'] = 'Quality<i>&nbsp&nbsp•&nbsp&nbsp</i>Experience<i>&nbsp&nbsp•&nbsp&nbsp</i>Safety';
+$lng['subtitleCompany'] = 'Calidad&nbsp&nbsp<i class="uk-icon-circle uk-icon-xsmall"></i>&nbsp&nbspExperiencia&nbsp&nbsp<i class="uk-icon-circle uk-icon-xsmall"></i>&nbsp&nbspSeguridad';
 $lng['flota'] = 'Get to know our fleet';
 $lng['nosotros'] = '40 years of maritime experience';
 $lng['titleCompany'] = 'Naviera Armamex';
@@ -211,9 +211,9 @@ $lng['opt3Field10F'] = 'Solida';
 $lng['opt3Field11F'] = 'Especificaciones de Carga';
 
 $lng['infoContact1'] = 'Armamex Mexico';
-$lng['infoContact2'] = 'Ing. Ernesto Roman <br>Mexico: +52 (55) 5203-8115 <br>comercializacion@armamex.com';
+$lng['infoContact2'] = 'Mexico: +52 (55) 5203-8115 <br>comercializacion@armamex.com';
 $lng['infoContact3'] = 'Armamex Internacional';
-$lng['infoContact4'] = 'Ing. Jose Guillermo Davila <br>Houston: +1(281)942-6100 <br>jgdavila@armamex.com';
+$lng['infoContact4'] = 'Houston: +1(281)942-6100 <br>jgdavila@armamex.com';
 $lng['sendButton'] = 'Enviar';
 
 $lng['messageFormCot'] = 'Favor de llenar los siguientes campos y seleccionar el tipo de cotización';

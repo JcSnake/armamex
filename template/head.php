@@ -12,7 +12,7 @@
     <link rel="apple-touch-startup-image" href="/assets/images/statup.png">
 
     <!-- Import JQuery 3.1.1 for extend JavaScript utilities -->
-    <script src="/assets/frameworks/jquery-3.3.1.min.js"></script>
+    <script src="/assets/frameworks/jquery-3.3.1.min.js" defer></script>
 
     <!-- Import UIKit 2.27.5 Framework for responsive design and utilities -->
     <link rel="stylesheet" href="/assets/frameworks/uikit-2.27.5/css/uikit.min.css">
@@ -21,17 +21,17 @@
     <link rel="stylesheet" href="/assets/frameworks/uikit-2.27.5/css/components/slidenav.min.css">
     <link rel="stylesheet" href="/assets/frameworks/uikit-2.27.5/css/components/slideshow.min.css">
     <link rel="stylesheet" href="/assets/frameworks/uikit-2.27.5/css/components/notify.min.css">
-    <script src="/assets/frameworks/uikit-2.27.5/js/uikit.min.js"></script>
-    <script src="/assets/frameworks/uikit-2.27.5/js/components/grid.min.js"></script>
-    <script src="/assets/frameworks/uikit-2.27.5/js/components/sticky.min.js"></script>
-    <script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow.min.js"></script>
-    <script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow-fx.min.js"></script>
-    <script src="/assets/frameworks/uikit-2.27.5/js/components/notify.min.js"></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/uikit.min.js" defer></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/grid.min.js" defer></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/sticky.min.js" defer></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow.min.js" defer></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow-fx.min.js" defer></script>
+    <script src="/assets/frameworks/uikit-2.27.5/js/components/notify.min.js" defer></script>
 
     <!-- Import own styles and scripts -->
     <link rel="stylesheet" href="/assets/css/styles.min.css?v=<?=$lng['version']?>_r<?=$lng['release']?>">
     <link rel="stylesheet" href="/assets/css/uikit-override.min.css?v=<?=$lng['version']?>_r<?=$lng['release']?>">
-    <script src="/assets/js/funcs.min.js?v=<?=$lng['version']?>_r<?=$lng['release']?>"></script>
-    <script src="/assets/lang/<?=$lng['code']?>/init.js?v=<?=$lng['version']?>_r<?=$lng['release']?>"></script>
+    <script src="/assets/js/funcs.min.js?v=<?=$lng['version']?>_r<?=$lng['release']?>" defer></script>
+    <script src="/assets/lang/<?=$lng['code']?>/init.js?v=<?=$lng['version']?>_r<?=$lng['release']?>" defer></script>
 
 </head>
