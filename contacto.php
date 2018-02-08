@@ -1,7 +1,7 @@
 <section id="am-contacto" class="uk-container-center uk-margin-large-top am-terminal-container">
     <div id="contactForm">
         <h1 class="uk-text-center"><?=$lng['contacto']?></h1>
-        <div class="am-head-terminal-title uk-contrast">
+        <div class="am-head-contacto-title uk-contrast">
             <h2><?=$lng['headContact']?></h2>
         </div>
         <div class="am-block-parent uk-contrast">
@@ -55,7 +55,7 @@
     </div>
     <div id="contactSuccess" class="uk-hidden">
         <h1 class="uk-text-center"><?=$lng['contactoSuccess']?></h1>
-        <div class="am-head-terminal-title uk-contrast">
+        <div class="am-head-contacto-title uk-contrast">
             <h2><?=$lng['headContact']?></h2>
         </div>
         <div class="am-block-parent uk-contrast">

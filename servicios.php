@@ -1,7 +1,7 @@
 <section id="am-servicios" class="uk-container-center uk-margin-large-top am-terminal-container">
     <h1 class="uk-text-center uk-visible-small"><?=$lng['servicesTitle']?></h1>
     <div class="uk-contrast">
-        <div class="am-head-terminal-title">
+        <div class="am-head-servicio-title">
             <h2><?=$lng['headFletamento']?></h2>
         </div>
         <div class="am-block-parent">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="am-head-terminal-title">
+        <div class="am-head-servicio-title">
             <h2><?=$lng['headTransport']?></h2>
         </div>
         <div class="am-block-parent">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="am-head-terminal-title">
+        <div class="am-head-servicio-title">
             <h2><?=$lng['headAssitance']?></h2>
         </div>
         <div class="am-block-parent">
@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <div class="am-head-terminal-title">
+        <div class="am-head-servicio-title">
             <h2><?=$lng['headMantenimiento']?></h2>
         </div>
         <div class="am-block-parent">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="am-head-terminal-title">
+        <div class="am-head-servicio-title">
             <h2><?=$lng['headDevelopment']?></h2>
         </div>
         <div class="am-block-parent">
