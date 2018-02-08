@@ -4,7 +4,7 @@
         <div class="am-head-terminal-title uk-contrast">
             <h2><?=$lng['headCotizacion']?></h2>
         </div>
-        <div class="am-block-parent uk-contrast">
+        <div id="am-solicitante" class="am-block-parent uk-contrast">
             <div class="am-block">
                 <p class="uk-hidden-small uk-text-medium"><?=$lng['messageFormCot']?></p>
                 <p class="uk-visible-small uk-text-center uk-text-small"><?=$lng['messageFormCot']?></p>
@@ -14,13 +14,13 @@
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionName"><?=$lng['contactName']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactName']?>">
+                                    <input id="cotizacionName" name="cotizacionName" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactNameF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-margin-bottom">
                                 <label class="uk-form-label uk-hidden-small" for="cotizacionEmail"><?=$lng['contactMail']?>:</label>
                                 <div class="uk-form-controls">
-                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMail']?>">
+                                    <input id="cotizacionEmail" name="cotizacionEmail" class="uk-width-1-1" type="text" placeholder="<?=$lng['contactMailF']?>">
                                 </div>
                             </div>
                             <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3">
@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-fletamentos" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div>        
         <div id="cotizacionOpt2" class="uk-hidden">
             <div class="am-head-terminal-title uk-contrast">
                 <h2><?=$lng['contactTypeOpt2']?></h2>
@@ -207,7 +207,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-remolques" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +295,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-remolques" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary am-send-cotizacion"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>

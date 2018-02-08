@@ -140,12 +140,6 @@
                 </a>
             </li>
             <li>
-                <a href="#am-experiencia" data-uk-smooth-scroll="{offset: 50}">
-                    <i><img src="/assets/images/nav/experiencia.svg" width="30" height="30" alt="<?=$lng['menuExpirience']?>"></i>
-                    <?=$lng['menuExpirience']?>
-                </a>
-            </li>
-            <li>
                 <a href="#am-clientes" data-uk-smooth-scroll="{offset: 50}">
                     <i><img src="/assets/images/nav/clientes.svg" width="30" height="30" alt="<?=$lng['menuClients']?>"></i>
                     <?=$lng['menuClients']?>
