@@ -50,9 +50,9 @@
                                 <div class="uk-form-controls">
                                     <select id="cotizacionType" name="cotizacionType" class="uk-width-1-1">
                                         <option value=""><?=$lng['contactTypeEmtpy']?></option>
-                                        <option value="<?=$lng['contactTypeOpt1']?>"><?=$lng['contactTypeOpt1']?></option>
-                                        <option value="<?=$lng['contactTypeOpt2']?>"><?=$lng['contactTypeOpt2']?></option>
-                                        <option value="<?=$lng['contactTypeOpt3']?>"><?=$lng['contactTypeOpt3']?></option>
+                                        <option id="am-set-Cot1" value="<?=$lng['contactTypeOpt1']?>"><?=$lng['contactTypeOpt1']?></option>
+                                        <option id="am-set-Cot2" value="<?=$lng['contactTypeOpt2']?>"><?=$lng['contactTypeOpt2']?></option>
+                                        <option id="am-set-Cot3" value="<?=$lng['contactTypeOpt3']?>"><?=$lng['contactTypeOpt3']?></option>
                                     </select>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                 </div>
                                 <div class="uk-form-row">
                                     <div class="uk-text-right">
-                                        <button type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
+                                        <button id="am-send-remolque" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                     </div>
                                 </div>
                             </div>
