@@ -59,7 +59,7 @@
             <h2><?=$lng['headContact']?></h2>
         </div>
         <div class="am-block-parent uk-contrast">
-            <div class="am-block">
+            <div class="am-bloc">
                 <h2 class="uk-marign-large-top uk-margin-large-bottom uk-text-center am-text-white"><?=$lng['contactoSuccessMsg']?></h2>
             </div>
         </div>
