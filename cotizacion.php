@@ -167,7 +167,7 @@
                                 <div class="uk-form-row">
                                     <label class="uk-form-label uk-text-right uk-hidden-small am-form-label" for="cotOptTRB"><?=$lng['opt2Field05']?>:</label>
                                     <div class="uk-form-controls am-form-controls">
-                                        <input id="cotOptTRB" name="cotOptTRB" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt2Field05']?>">
+                                        <input id="cotOpt2TRB" name="cotOptTRB" class="uk-width-1-1" type="text" placeholder="<?=$lng['opt2Field05']?>">
                                     </div>
                                 </div>
                             </div>
