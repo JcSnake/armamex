@@ -196,8 +196,8 @@ $lng['opt3Field05'] = 'Sistema de Descarga';
 $lng['opt3Field06'] = 'Entrada';
 $lng['opt3Field07'] = 'Sobredimensionada';
 $lng['opt3Field08'] = 'A Granel';
-$lng['opt3Field09'] = 'Liquida';
-$lng['opt3Field10'] = 'Solida';
+$lng['opt3Field09'] = 'Líquida';
+$lng['opt3Field10'] = 'Sólida';
 $lng['opt3Field11'] = 'Especificaciones de Carga';
 
 $lng['opt3Field01F'] = 'Fecha de Embarque';

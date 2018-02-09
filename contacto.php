@@ -30,7 +30,7 @@
                             <div class="uk-form-row">
                                 <label class="uk-form-label uk-hidden-small" for="frmMessage"><?=$lng['contactMessage']?>:</label>
                                 <div class="uk-form-controls">
-                                    <textarea id="frmMessage" name="frmMessage" cols="50" rows="5" placeholder="<?=$lng['contactMessageF']?>"></textarea>
+                                    <textarea id="frmMessage" name="frmMessage" cols="50" rows="5" placeholder="<?=$lng['fieldOptional']?>"></textarea>
                                 </div>
                             </div>
                             <div class="uk-form-row">
