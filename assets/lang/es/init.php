@@ -87,8 +87,11 @@ $lng['quantity13'] = '45 TPF';
 
 $lng['location4'] = 'Popocatepetl II';
 $lng['sublocation1'] = 'Buque Huesped';
+$lng['quantity20'] = '1,000 TON';
 $lng['sublocation2'] = 'Manga';
+$lng['quantity21'] = '18 M';
 $lng['sublocation3'] = 'Eslora';
+$lng['quantity22'] = '87.40 M';
 $lng['quantity19'] = '1,800 TPM';
 
 $lng['chSubtitle'] = '(Carga sobre cubierta)';
@@ -215,7 +218,7 @@ $lng['opt3Field11F'] = 'Especificaciones de Carga';
 $lng['infoContact1'] = 'Armamex Mexico';
 $lng['infoContact2'] = 'Mexico: +52 (55) 5203-8115 <br>comercializacion@armamex.com';
 $lng['infoContact3'] = 'Armamex Internacional';
-$lng['infoContact4'] = 'Houston: +1(281)942-6100 <br>jgdavila@armamex.com';
+$lng['infoContact4'] = 'Houston: +1(281)942-6100 <br>info@armamex.com';
 $lng['sendButton'] = 'Enviar';
 
 $lng['messageFormCot'] = 'Favor de llenar los siguientes campos y seleccionar el tipo de cotización';

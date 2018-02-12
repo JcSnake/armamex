@@ -16,3 +16,15 @@
         </div>
     </div>
 </footer>
+
+<!-- Import UIKit 2.27.5 Framework for responsive design and utilities -->
+<script src="/assets/frameworks/uikit-2.27.5/js/uikit.min.js" defer></script>
+<script src="/assets/frameworks/uikit-2.27.5/js/components/grid.min.js" defer></script>
+<script src="/assets/frameworks/uikit-2.27.5/js/components/sticky.min.js" defer></script>
+<script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow.min.js" defer></script>
+<script src="/assets/frameworks/uikit-2.27.5/js/components/slideshow-fx.min.js" defer></script>
+<script src="/assets/frameworks/uikit-2.27.5/js/components/notify.min.js" defer></script>
+
+<!-- Import own styles and scripts -->
+<script src="/assets/js/funcs.min.js?v=<?=$lng['version']?>_r<?=$lng['release']?>" defer></script>
+    <script src="/assets/lang/<?=$lng['code']?>/init.js?v=<?=$lng['version']?>_r<?=$lng['release']?>" defer></script>

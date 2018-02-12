@@ -204,14 +204,23 @@
                                 <div class="uk-width-1-2 uk-text-right">
                                     <p class="am-text-white"><?=$lng['quantity19']?></p>
                                 </div>
-                                <div class="uk-width-1-1 am-padding-left">
+                                <div class="uk-width-1-2 am-padding-left">
                                     <p class="am-text-white"><?=$lng['sublocation1']?></p>
                                 </div>
-                                <div class="uk-width-1-1 am-padding-left">
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity20']?></p>
+                                </div>
+                                <div class="uk-width-1-2 am-padding-left">
                                     <p class="am-text-white"><?=$lng['sublocation2']?></p>
                                 </div>
-                                <div class="uk-width-1-1 am-padding-left">
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity21']?></p>
+                                </div>
+                                <div class="uk-width-1-2 am-padding-left">
                                     <p class="am-text-white"><?=$lng['sublocation3']?></p>
+                                </div>
+                                <div class="uk-width-1-2 uk-text-right">
+                                    <p class="am-text-white"><?=$lng['quantity22']?></p>
                                 </div>
                             </div>
                         </div>
