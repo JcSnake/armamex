@@ -38,7 +38,7 @@
                             </div>
                             <div class="uk-form-row">
                                 <div class="uk-form-controls">                                    
-                                    <button id="am-send-contact" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
+                                    <button id="am-send-contact" name="enviar" type="button" class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-button uk-button-primary"><?=$lng['sendButton']?></button>
                                 </div>
                             </div>
                         </form>
