@@ -8,7 +8,7 @@
             <div class="am-block">
                 <div class="uk-grid uk-grid-collapse">
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2 uk-margin-bottom">
-                        <form action="sendEmail.php" id="contactFrm" class="uk-form uk-form-horizontal">
+                        <form id="contactFrm" class="uk-form uk-form-horizontal">
                             <div class="uk-form-row">
                                 <label class="uk-form-label uk-hidden-small" for="frmName"><sup class="am-mandatory">*</sup>&nbsp;<?=$lng['contactName']?>:</label>
                                 <div class="uk-form-controls">
