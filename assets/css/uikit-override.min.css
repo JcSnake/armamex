@@ -1,0 +1,117 @@
+
+/**
+ * UIKit nabar styles
+ */
+
+.uk-navbar, .uk-navbar-nav {
+    width: 100%;
+    background: #3A79B0;
+    -webkit-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+    -moz-box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+    box-shadow: -1px 3px 10px 2px rgba(35, 35, 35, 0.8);
+}
+
+.uk-navbar-nav {
+    height: 65px;
+}
+
+.uk-navbar-nav > li {
+    width: 200px !important;
+}
+
+.uk-navbar-toggle {
+    color: #fff;
+}
+
+.uk-navbar-nav > li.uk-open > a, .uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.uk-navbar-nav>li.uk-open>a, .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a:focus {
+    color: #AFD7F0;
+}
+
+.uk-navbar-nav > li > a {
+    cursor: pointer !important;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.uk-navbar-nav > li:active > a > div > img {
+    -webkit-filter: grayscale(0.8);
+    -moz-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+}
+
+/**
+ * UIKit form styles
+ */
+
+.uk-form-horizontal .uk-form-label {
+    width: 100px;
+    margin-top: 5px;
+    float: left;
+}
+
+.uk-form-horizontal .uk-form-controls {
+    margin-left: 100px;
+}
+
+.uk-form textarea {
+    width: 100%;
+}
+
+.uk-form-horizontal .am-form-label {
+    width: 200px !important;
+    margin-top: 5px !important;
+    float: left !important;
+}
+
+.uk-form input[type=text],.uk-form textarea, input[type=number], .uk-form select {
+    font-size: 0.6em;
+}
+
+.uk-form-horizontal .am-form-controls {
+    margin-left: 205px !important;
+}
+
+.uk-block {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+/**
+ * UIKit button styles
+ */
+
+.uk-button-primary {
+    background-color: #3A79B0 !important;
+}
+
+/**
+ * UIKit form
+ */
+
+.uk-contrast .uk-form input:not([type]), .uk-contrast .uk-form input[type=text], .uk-contrast .uk-form input[type=password], .uk-contrast .uk-form input[type=email], .uk-contrast .uk-form input[type=url], .uk-contrast .uk-form input[type=search], .uk-contrast .uk-form input[type=tel], .uk-contrast .uk-form input[type=number], .uk-contrast .uk-form input[type=datetime], .uk-contrast .uk-form input[type=datetime-local], .uk-contrast .uk-form input[type=date], .uk-contrast .uk-form input[type=month], .uk-contrast .uk-form input[type=time], .uk-contrast .uk-form input[type=week], .uk-contrast .uk-form input[type=color], .uk-contrast .uk-form select, .uk-contrast .uk-form textarea {
+    background-color: #162040;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.uk-contrast .uk-form input:not([type]):focus, .uk-contrast .uk-form input[type=text]:focus, .uk-contrast .uk-form input[type=password]:focus, .uk-contrast .uk-form input[type=email]:focus, .uk-contrast .uk-form input[type=url]:focus, .uk-contrast .uk-form input[type=search]:focus, .uk-contrast .uk-form input[type=tel]:focus, .uk-contrast .uk-form input[type=number]:focus, .uk-contrast .uk-form input[type=datetime]:focus, .uk-contrast .uk-form input[type=datetime-local]:focus, .uk-contrast .uk-form input[type=date]:focus, .uk-contrast .uk-form input[type=month]:focus, .uk-contrast .uk-form input[type=time]:focus, .uk-contrast .uk-form input[type=week]:focus, .uk-contrast .uk-form input[type=color]:focus, .uk-contrast .uk-form select:focus, .uk-contrast .uk-form textarea:focus {
+    background-color: #162050;
+    color: #fff;
+    border: none;
+}
+
+/**
+ * UIKit Icon
+ */
+
+.uk-icon-xsmall {
+    font-size: 70%;
+    vertical-align: 10%;
+}
